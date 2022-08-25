@@ -1,0 +1,156 @@
+body {
+  margin:0px;
+  height:100%;
+}
+
+.oMain {
+  display: flex;
+  flex-direction: column;  
+}
+
+.firstMain {
+  /* position:absolute; */
+  width: 100%;
+  height: 700px;
+  background-image: url('../Images/threshWallpaper.jpg');
+  background-position: 70% 30%;
+  -webkit-filter: blur(10px);
+  -moz-filter: blur(10px);
+  -o-filter: blur(10px);
+  -ms-filter: blur(10px);
+  filter: blur(10px);
+}
+
+.imgFirstMain {
+  background-image: url('../Images/threshWallpaper.jpg');
+  background-size: cover;
+  background-position: center;
+  position: absolute;
+  top: 150px;
+  width: 1300px;
+  height: 700px;
+  z-index: 2;
+  align-self: center;
+}
+
+.nameMain {
+  z-index: 2;
+  align-self: center;
+  position: absolute;
+  top: 700px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nameMain :first-child {
+  color: white;
+}
+
+.nameMain :last-child {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 100px;
+}
+
+.secondMain {
+  background-color: #010913;
+  width: 100%;
+  height: 1000px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sobre {
+  position: absolute;
+  top: 60px;
+  border: 1px solid white;
+  padding: 10px;
+  width: 1000px;
+  height: 350px;
+  z-index: 3;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.sobre :first-child {
+  width: 450px;
+}
+
+.sobre :last-child {
+  width: 400px;
+  color: white;
+}
+
+.line {
+  height: 200px;
+  border-right: 1px solid white;
+  margin-left: -35px;
+}
+
+.skillsMain {
+  position: absolute;
+  bottom: 30px;
+  padding: 30px;
+  width: 1800px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.skills :first-child {
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-size: 80px;
+}
+
+.skillsImg img {
+  margin: 20px;
+}
+
+.skillsImg img:hover {
+  cursor: pointer;
+}
+
+.skillsDescripton :first-child {
+  font-size: 20px;
+  margin-bottom: -30px;
+}
+
+.skillsDescripton :last-child {
+  color: white;
+  width: 400px;
+  margin-top: 40px;
+}
+
+.skillsSelected {
+  border: 2px solid #20DFAA;
+  margin-bottom: 10px;
+  width: 70px;
+}
+
+.thirdMain {
+  height: 1000px;
+  display: flex;
+  justify-content: center;
+}
+
+.skinsDiv {
+  margin-top: 50px;
+  width: 65%;
+  height: 400px;
+  background-size: cover;
+}

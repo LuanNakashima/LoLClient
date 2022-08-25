@@ -1,0 +1,50 @@
+header {
+  background-color: #010912;
+  height: 75px;
+  display: flex;
+  justify-content: space-between;
+  color: white;
+}
+
+.div1 {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.div1 h3:hover {
+  color: #EA202D;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.div1 button {
+  all: unset;
+  cursor: pointer;
+}
+
+.div1 :nth-last-child(2) {
+  background-color: #21B1B0;
+  color: black;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.div1 :last-child {
+  background-color: #21B1B0;
+  color: black;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.ritoIcon {
+  width: 100px;
+}
+
+.vertical {
+  margin: -40px;
+  border-left: 2px solid white;
+  height: 80%;
+  left: 50%;
+}
